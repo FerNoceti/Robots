@@ -9,7 +9,8 @@ public class Water extends Combat {
     }
 
     @Override
-    public void surrender() {
+    public void showType() {
+        super.showType();
         System.out.println("Specifically water type");
     }
 }

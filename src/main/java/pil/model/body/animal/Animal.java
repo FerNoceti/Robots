@@ -4,7 +4,7 @@ import pil.model.body.Body;
 import pil.ui.IAnimal;
 import pil.ui.IBody;
 
-public class Animal  extends Body implements IAnimal{
+public class Animal extends Body implements IAnimal{
 
     @Override
     public void showType() {

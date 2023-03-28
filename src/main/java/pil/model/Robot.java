@@ -1,6 +1,9 @@
 package pil.model;
 
 import pil.model.body.Body;
+import pil.model.body.animal.Animal;
+import pil.model.body.combat.Combat;
+import pil.model.body.housework.Housework;
 import pil.model.head.Head;
 
 public class Robot {
@@ -17,7 +20,7 @@ public class Robot {
     }
 
     public Body getBody() {
-        return body;
+        return this.body;
     }
 
     public void changeBody(Body body) {
