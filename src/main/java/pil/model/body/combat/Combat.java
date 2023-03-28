@@ -11,4 +11,9 @@ public abstract class Combat extends Body implements ICombat, IBody {
         System.out.println("Im a combat robot");
     }
 
+    @Override
+    public void surrender() {
+        System.out.println("Can´t continue fighting, I surrender...");
+    }
+
 }
