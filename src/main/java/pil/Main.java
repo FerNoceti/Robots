@@ -24,12 +24,14 @@ public class Main {
         Body waterCombatBody = new Water();
 
         //Use the bodies
+        System.out.println("\n");
         robot.changeBody(animalBody);
         robot.getBody().walk();
         robot.getBody().showType();
         Animal animalBodyAux = (Animal) robot.getBody();
         animalBodyAux.hunt();
 
+        System.out.println("\n");
         robot.changeBody(houseworkBody);
         robot.getBody().showType();
         robot.getBody().eat();
@@ -37,17 +39,19 @@ public class Main {
         houseworkBodyAux.cook();
         houseworkBodyAux.sweep();
 
+        System.out.println("\n");
         robot.changeBody(aerialCombatBody);
         robot.getBody().showType();
         Combat combatBodyAux = (Combat) robot.getBody();
         combatBodyAux.fight();
 
+        System.out.println("\n");
         robot.changeBody(groundCombatBody);
         robot.getBody().showType();
         combatBodyAux = (Combat) robot.getBody();
-        combatBodyAux.showType();
         combatBodyAux.fight();
 
+        System.out.println("\n");
         robot.changeBody(waterCombatBody);
         robot.getBody().showType();
         robot.getHead().smile();

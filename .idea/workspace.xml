@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba8d9db0-dada-48e9-8fd1-106870c3f9b1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pil/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pil/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pil/model/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pil/model/Robot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pil/model/body/animal/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pil/model/body/animal/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pil/model/body/combat/Water.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pil/model/body/combat/Water.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pil/model/head/Head.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pil/model/head/Head.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pil/model/body/combat/Combat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pil/model/body/combat/Combat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

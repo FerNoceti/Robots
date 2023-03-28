@@ -13,7 +13,7 @@ public abstract class Combat extends Body implements ICombat, IBody {
 
     @Override
     public void surrender() {
-        System.out.println("Can´t continue fighting, I surrender...");
+        System.out.println("Can´t continue fighting, I surrender... :(");
     }
 
 }
